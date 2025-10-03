@@ -1,0 +1,9 @@
+# Python specific files and directories
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data Directory filled with different phases of refining
+data/
+

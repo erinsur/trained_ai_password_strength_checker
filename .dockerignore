@@ -1,0 +1,11 @@
+# Exclude the entire 'data' folder (including raw and split data files)
+data/
+
+# Exclude the slow data preparation script (only needed for training)
+data_prep.py
+
+# Standard exclusions for Python projects
+__pycache__/
+*.pyc
+.git/
+.gitignore
