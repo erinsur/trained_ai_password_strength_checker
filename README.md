@@ -13,3 +13,16 @@ Run the following command in the project root directory where the Dockerfile is 
 ```
 docker build -t password-checker .
 ```
+
+### 2. Run the Prediction
+Use the docker run command, passing the password in quotes as an argument.
+
+Example 1: Predict a Weak Password
+```
+docker run --rm password-checker "password123"
+```
+
+Example 2: Predict a Strong Password
+```
+docker run --rm password-checker "My_Complex!Password#1A"
+```
