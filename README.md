@@ -9,4 +9,7 @@ You must have the Docker intalled and running.
 
 ### 1. Build the Image
 Run the following command in the project root directory where the Dockerfile is located. This will build the image and tag it password-checker.
-```docker build -t password-checker .```
+
+```
+docker build -t password-checker .
+```
